@@ -16,7 +16,7 @@ web_server:
 esphome:
   name: ${id_prefix}
   friendly_name: ${friendly_name}
-  name_add_mac_suffix: true
+  name_add_mac_suffix: false
   project:
     name: ratgdo.esphome
     version: "2.5"

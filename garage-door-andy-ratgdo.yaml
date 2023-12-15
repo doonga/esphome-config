@@ -1,7 +1,6 @@
 ---
 substitutions:
-  system_name: garage-door-andy-ratgdo
-  host_name: garage-door-andy-ratgdo.greyrock.io
+  id_prefix: garage-door-andy-ratgdo.greyrock.io
   friendly_name: Garage Door - Andy
   device_description: Ratgdo 2.5 board for Andy's Garage Door
 
