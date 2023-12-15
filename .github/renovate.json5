@@ -1,0 +1,10 @@
+{
+  extends: [
+    "github>doonga/renovate-config",
+    "github>doonga/renovate-config:automerge-github-actions",
+  ],
+  platform: "github",
+  username: "greyrock-repo-duster[bot]",
+  gitAuthor: "greyrock-repo-duster <112729691+greyrock-repo-duster[bot]@users.noreply.github.com>",
+  repositories: ["doonga/esphome-config"],
+}
