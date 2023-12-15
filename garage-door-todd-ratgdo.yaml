@@ -15,3 +15,4 @@ api:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_pwd
+  domain: .greyrock.io
