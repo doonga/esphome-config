@@ -1,7 +1,7 @@
 ---
 substitutions:
-  name: garage-door-andy-ratgdo
-  friendly_name: Garage Door - Andy
+  name: garage-door-todd-ratgdo
+  friendly_name: Garage Door - Todd
 packages:
   ratgdo.esphome: github://ratgdo/esphome-ratgdo/v25board_esp8266_d1_mini_lite.yaml@main
 esphome:
@@ -10,7 +10,7 @@ esphome:
   friendly_name: ${friendly_name}
 api:
   encryption:
-    key: !secret garage_door_andy_ratgdo_api_key
+    key: !secret garage_door_todd_ratgdo_api_key
 
 wifi:
   ssid: !secret wifi_ssid
