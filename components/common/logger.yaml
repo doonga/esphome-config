@@ -8,7 +8,7 @@
 #
 
 substitutions:
-  log_level: INFO
+  log_level: DEBUG
   log_baudrate: "115200"
 
 logger:
