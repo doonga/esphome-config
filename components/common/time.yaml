@@ -12,3 +12,7 @@ substitutions:
 time:
   - <<: !include ../time/sntp.yaml
     timezone: "${time_timezone}"
+    servers:
+      - time1.greyrock.io
+      - time2.greyrock.io
+      - time3.greyrock.io

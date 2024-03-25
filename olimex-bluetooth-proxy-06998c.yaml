@@ -1,0 +1,12 @@
+substitutions:
+  name: olimex-bluetooth-proxy-06998c
+  friendly_name: Bluetooth Proxy - Office
+packages:
+  esphome.bluetooth-proxy: github://esphome/firmware/bluetooth-proxy/olimex-esp32-poe-iso.yaml@main
+esphome:
+  name: ${name}
+  name_add_mac_suffix: false
+  friendly_name: ${friendly_name}
+api:
+  encryption:
+    key: !secret bluetooth_proxy_office_api_key

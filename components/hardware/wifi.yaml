@@ -7,6 +7,7 @@ substitutions:
   wifi_ssid: !secret wifi_ssid
   wifi_password: !secret wifi_pwd
   wifi_ap_password: !secret wifi_fallback_ssid_password
+  wifi_domain: .greyrock.io
   host_name: "${host_name}"
 
 wifi:
@@ -14,6 +15,7 @@ wifi:
   ssid: "${wifi_ssid}"
   use_address: "${host_name}"
   password: "${wifi_password}"
+  domain: "${wifi_domain}"
   reboot_timeout: 10min
   ap:
     ssid: "${friendly_name} AP"
