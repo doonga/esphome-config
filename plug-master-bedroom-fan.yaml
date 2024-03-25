@@ -1,0 +1,12 @@
+substitutions:
+  name: plug-master-bedroom-fan
+  friendly_name: plug-master-bedroom-fan
+  sub_restore_mode: RESTORE_DEFAULT_OFF
+
+packages:
+  kauf.plf12: github://KaufHA/PLF12/kauf-plf12.yaml
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_pwd
+  domain: .greyrock.io
