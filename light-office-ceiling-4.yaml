@@ -1,6 +1,7 @@
 substitutions:
   device_name: "light-office-ceiling-4"
   friendly_name: "light-office-ceiling-4"
+  host_name: "light-office-ceiling-4.greyrock.io"
   project_name: "Athom Technology.RGBCW Bulb"
   project_version: "1.1"
   light_restore_mode: RESTORE_AND_OFF
