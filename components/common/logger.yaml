@@ -9,7 +9,7 @@
 
 substitutions:
   log_level: INFO
-  log_baudrate: "0"
+  log_baudrate: "115200"
 
 logger:
   id: component_logger
